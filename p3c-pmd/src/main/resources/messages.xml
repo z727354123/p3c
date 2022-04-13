@@ -283,6 +283,13 @@
         <![CDATA[ long或者Long初始赋值时，必须使用大写的L，不能是小写的l，小写容易跟数字1混淆，造成误解。]]>
     </entry>
 
+	<!-- testOOp -->
+	<entry key="java.oop.MethodParameterCountRule.violation.msg">
+		<![CDATA[方法【%s】参数列表过长。 ]]>
+	</entry>
+	<entry key="java.oop.MethodParameterCountRule.rule.msg">
+		<![CDATA[说明：方法参数列表不允许超过（含）5个，建议封装到一个对象中。]]>
+	</entry>
 
     <!-- oop -->
     <entry key="java.oop.EqualsAvoidNullRule.violation.msg">
