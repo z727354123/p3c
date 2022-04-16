@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<ruleset name="AlibabaJavaNaming" xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+	<description>AlibabaJavaNaming</description>
+
+
+
+	<rule name="PluginClassNamingRule"
+		  language="java"
+		  since="1.6"
+		  message="java.kd.PluginClassNamingRule.rule.msg"
+		  class="com.alibaba.p3c.pmd.lang.java.kd.rule.naming.PluginClassNamingRule">
+		<priority>2</priority>
+		<example>
+			<![CDATA[
+插件命名规范 正例：
+
+（1）表单插件：{插件名}Plugin 如：FormPlugin；
+（2）单据插件：{插件名}Edit 如：PurchaserEditPlugin；
+（3）列表插件：{插件名}List 如：PurchaserListPlugin；
+（4）操作插件：{插件名}Op 如：PurchaserOpPlugin；
+（5）报表插件：{插件名}Rpt 如：PurchaserRptPlugin。
+            ]]>
+		</example>
+	</rule>
+
+
+</ruleset>
