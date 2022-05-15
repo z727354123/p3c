@@ -37,8 +37,10 @@ public class PluginClassNamingRule extends AbstractAliRule {
     private static Map<String, String> NAME_MAP = new HashMap<>();
 
     static {
-        NAME_MAP.put("HRCoreBaseBillEdit", "Edit");
-        NAME_MAP.put("AbstractBillPlugIn", "Edit");
+        // key 插件父类名, val 插件后缀
+        // 单据插件
+        NAME_MAP.put("AbstractBillPlugIn", "EditPlugin");
+        NAME_MAP.put("HRCoreBaseBillEdit", "EditPlugin");
     }
 
     @Override

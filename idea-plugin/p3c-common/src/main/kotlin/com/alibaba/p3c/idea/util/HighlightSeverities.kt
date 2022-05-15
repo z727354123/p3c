@@ -30,10 +30,10 @@ object HighlightSeverities {
     /**
      * The standard severity level for warning annotations.
      */
-    val CRITICAL = HighlightSeverity("CRITICAL", 398)
+    val CRITICAL = HighlightSeverity("推荐", 398)
 
     /**
      * The standard severity level for error annotations.
      */
-    val BLOCKER = HighlightSeverity("BLOCKER", 399)
+    val BLOCKER = HighlightSeverity("强制", 399)
 }

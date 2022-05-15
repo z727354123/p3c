@@ -296,8 +296,14 @@
 		<![CDATA[插件【%s】命名不规范。应以【%s】结尾 ]]>
 	</entry>
 	<entry key="java.kd.PluginClassNamingRule.rule.msg">
-		<![CDATA[说明：按模块分工程，每个模块分为：表单插件（含表单、基础资料、单据、列 表）、操作插件、报表插件。都有各自命名规范]]>
+		<![CDATA[插件命名不规范]]>
 	</entry>
+	<entry key="java.kd.DontUpdateViewInForeachCircleRule.rule.msg">
+		<![CDATA[禁止在循环中调用 view.updateView()。]]>
+	</entry>
+    <entry key="java.kd.DontUpdateViewInForeachCircleRule.violation.msg">
+        <![CDATA[说明：可在循环结束后针对修改的数据进行局部刷新]]>
+    </entry>
 
     <!-- oop -->
     <entry key="java.oop.EqualsAvoidNullRule.violation.msg">

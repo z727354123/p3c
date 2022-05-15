@@ -17,7 +17,7 @@ package com.alibaba.smartfox.eclipse.pmd
 
 enum class RulePriority(val priority: Int, val title: String) {
 
-    Blocker(1, "Blocker"), Critical(2, "Critical"), Major(3, "Major");
+    Blocker(1, "强制"), Critical(2, "推荐"), Major(3, "Major");
 
     override fun toString(): String {
         return title

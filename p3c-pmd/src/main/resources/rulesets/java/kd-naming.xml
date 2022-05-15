@@ -8,20 +8,32 @@
 
 
 	<rule name="PluginClassNamingRule"
-		  language="java"
-		  since="1.6"
-		  message="java.kd.PluginClassNamingRule.rule.msg"
-		  class="com.alibaba.p3c.pmd.lang.java.kd.rule.naming.PluginClassNamingRule">
+				language="java"
+				since="1.6"
+				message="java.kd.PluginClassNamingRule.rule.msg"
+				class="com.alibaba.p3c.pmd.lang.java.kd.rule.naming.PluginClassNamingRule">
 		<priority>2</priority>
 		<example>
 			<![CDATA[
 插件命名规范 正例：
-
 （1）表单插件：{插件名}Plugin 如：FormPlugin；
 （2）单据插件：{插件名}Edit 如：PurchaserEditPlugin；
 （3）列表插件：{插件名}List 如：PurchaserListPlugin；
 （4）操作插件：{插件名}Op 如：PurchaserOpPlugin；
 （5）报表插件：{插件名}Rpt 如：PurchaserRptPlugin。
+            ]]>
+		</example>
+	</rule>
+
+	<rule name="DontUpdateViewInForeachCircleRule"
+				language="java"
+				since="1.6"
+				message="java.kd.DontUpdateViewInForeachCircleRule.rule.msg"
+				class="com.alibaba.p3c.pmd.lang.java.kd.rule.naming.DontUpdateViewInForeachCircleRule">
+		<priority>1</priority>
+		<example>
+			<![CDATA[
+	说明：可在循环结束后针对修改的数据进行局部刷新
             ]]>
 		</example>
 	</rule>
